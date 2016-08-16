@@ -25,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-     self.title = @"one";
+     self.title = @"onePage";
     
     
     UIButton *test =[[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
