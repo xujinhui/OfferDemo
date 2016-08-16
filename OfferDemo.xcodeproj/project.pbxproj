@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AE9A35941D62BDFA00CD4D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A35931D62BDFA00CD4D55 /* main.m */; };
 		AE9A35971D62BDFA00CD4D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A35961D62BDFA00CD4D55 /* AppDelegate.m */; };
-		AE9A359A1D62BDFA00CD4D55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A35991D62BDFA00CD4D55 /* ViewController.m */; };
 		AE9A359D1D62BDFA00CD4D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9A359B1D62BDFA00CD4D55 /* Main.storyboard */; };
 		AE9A359F1D62BDFA00CD4D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9A359E1D62BDFA00CD4D55 /* Assets.xcassets */; };
 		AE9A35A21D62BDFA00CD4D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9A35A01D62BDFA00CD4D55 /* LaunchScreen.storyboard */; };
@@ -45,8 +44,6 @@
 		AE9A35931D62BDFA00CD4D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE9A35951D62BDFA00CD4D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE9A35961D62BDFA00CD4D55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE9A35981D62BDFA00CD4D55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE9A35991D62BDFA00CD4D55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE9A359C1D62BDFA00CD4D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE9A359E1D62BDFA00CD4D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE9A35A11D62BDFA00CD4D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,13 +118,7 @@
 			children = (
 				AE9A35951D62BDFA00CD4D55 /* AppDelegate.h */,
 				AE9A35961D62BDFA00CD4D55 /* AppDelegate.m */,
-				AE9A35981D62BDFA00CD4D55 /* ViewController.h */,
-				AE9A35991D62BDFA00CD4D55 /* ViewController.m */,
 				AE9A35DC1D62BF7200CD4D55 /* Class */,
-				AE9A359B1D62BDFA00CD4D55 /* Main.storyboard */,
-				AE9A359E1D62BDFA00CD4D55 /* Assets.xcassets */,
-				AE9A35A01D62BDFA00CD4D55 /* LaunchScreen.storyboard */,
-				AE9A35A31D62BDFA00CD4D55 /* Info.plist */,
 				AE9A35921D62BDFA00CD4D55 /* Supporting Files */,
 			);
 			path = OfferDemo;
@@ -136,6 +127,8 @@
 		AE9A35921D62BDFA00CD4D55 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE9A359E1D62BDFA00CD4D55 /* Assets.xcassets */,
+				AE9A35A31D62BDFA00CD4D55 /* Info.plist */,
 				AE9A35931D62BDFA00CD4D55 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -162,6 +155,7 @@
 		AE9A35DC1D62BF7200CD4D55 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				AE9A35F51D62C1BF00CD4D55 /* imagesFile */,
 				AE9A35DD1D62BF7200CD4D55 /* base */,
 				AE9A35E21D62BF7200CD4D55 /* home */,
 				AE9A35E91D62BF7200CD4D55 /* me */,
@@ -206,8 +200,17 @@
 		AE9A35EC1D62BF7200CD4D55 /* other */ = {
 			isa = PBXGroup;
 			children = (
+				AE9A359B1D62BDFA00CD4D55 /* Main.storyboard */,
+				AE9A35A01D62BDFA00CD4D55 /* LaunchScreen.storyboard */,
 			);
 			path = other;
+			sourceTree = "<group>";
+		};
+		AE9A35F51D62C1BF00CD4D55 /* imagesFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = imagesFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,7 +345,6 @@
 			files = (
 				AE9A35EE1D62BF7200CD4D55 /* XNavigationController.m in Sources */,
 				AE9A35F01D62BF7200CD4D55 /* tempAViewController.m in Sources */,
-				AE9A359A1D62BDFA00CD4D55 /* ViewController.m in Sources */,
 				AE9A35ED1D62BF7200CD4D55 /* BaseViewController.m in Sources */,
 				AE9A35EF1D62BF7200CD4D55 /* OneViewController.m in Sources */,
 				AE9A35971D62BDFA00CD4D55 /* AppDelegate.m in Sources */,
@@ -390,6 +392,7 @@
 				AE9A359C1D62BDFA00CD4D55 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AE9A35A01D62BDFA00CD4D55 /* LaunchScreen.storyboard */ = {
@@ -398,6 +401,7 @@
 				AE9A35A11D62BDFA00CD4D55 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -490,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OfferDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.uvic.OfferDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OfferDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.uvic.OfferDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
