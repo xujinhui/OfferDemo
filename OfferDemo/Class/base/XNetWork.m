@@ -76,7 +76,10 @@
 
 - (void)getDataSourceWithpath:(NSString *)path parameters:(id)parameters success:(APIClientSuccessBlock)successBlock failure:(APIClientFailureBlock)failureBlock{
 
-    [self.manager GET:path parameters:parameters
+    
+    NSString *urlPath = [NSString stringWithFormat:@"%@%@",DOMAINURL,path];
+    
+    [self.manager GET:urlPath parameters:parameters
      
               success:^(AFHTTPRequestOperation *operation, id respont) {
                   

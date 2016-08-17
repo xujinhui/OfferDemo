@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE885A131D643E0300B36BAD /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE885A111D643E0300B36BAD /* HomeCell.m */; };
+		AE885A1A1D64490F00B36BAD /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE885A191D64490F00B36BAD /* RegistViewController.m */; };
 		AE9A35941D62BDFA00CD4D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A35931D62BDFA00CD4D55 /* main.m */; };
 		AE9A35971D62BDFA00CD4D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A35961D62BDFA00CD4D55 /* AppDelegate.m */; };
 		AE9A359D1D62BDFA00CD4D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9A359B1D62BDFA00CD4D55 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 		AE9A36341D630F0C00CD4D55 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A362C1D630F0C00CD4D55 /* UIWebView+AFNetworking.m */; };
 		AE9A36381D63163600CD4D55 /* XNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A36371D63163600CD4D55 /* XNetWork.m */; };
 		AE9A363A1D631D7500CD4D55 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A36391D631D7400CD4D55 /* Foundation+Log.m */; };
+		AE9A36431D63402100CD4D55 /* HomeSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A36421D63402100CD4D55 /* HomeSearchView.m */; };
+		AE9A36461D63412200CD4D55 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A36451D63412200CD4D55 /* UIView+Extension.m */; };
 		E628B8BD9346D508B7B15E39 /* libPods-OfferDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6527BC46CE7F4C09922E2 /* libPods-OfferDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +66,10 @@
 
 /* Begin PBXFileReference section */
 		61B6527BC46CE7F4C09922E2 /* libPods-OfferDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OfferDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE885A101D643E0300B36BAD /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		AE885A111D643E0300B36BAD /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		AE885A181D64490F00B36BAD /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		AE885A191D64490F00B36BAD /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
 		AE9A358F1D62BDF900CD4D55 /* OfferDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfferDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9A35931D62BDFA00CD4D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE9A35951D62BDFA00CD4D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +138,10 @@
 		AE9A36361D63163600CD4D55 /* XNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNetWork.h; sourceTree = "<group>"; };
 		AE9A36371D63163600CD4D55 /* XNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNetWork.m; sourceTree = "<group>"; };
 		AE9A36391D631D7400CD4D55 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		AE9A36411D63402100CD4D55 /* HomeSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSearchView.h; sourceTree = "<group>"; };
+		AE9A36421D63402100CD4D55 /* HomeSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSearchView.m; sourceTree = "<group>"; };
+		AE9A36441D63412200CD4D55 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		AE9A36451D63412200CD4D55 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		D541DE12F2C04009406A46A8 /* Pods-OfferDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfferDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OfferDemo/Pods-OfferDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D5DD5F118D7709377F4810BD /* Pods-OfferDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfferDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfferDemo/Pods-OfferDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +187,31 @@
 				61B6527BC46CE7F4C09922E2 /* libPods-OfferDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE885A151D6446FE00B36BAD /* C */ = {
+			isa = PBXGroup;
+			children = (
+				AE9A35E31D62BF7200CD4D55 /* HomeViewController.h */,
+				AE9A35E41D62BF7200CD4D55 /* HomeViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		AE885A161D64471100B36BAD /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		AE885A171D6448F700B36BAD /* login */ = {
+			isa = PBXGroup;
+			children = (
+				AE885A181D64490F00B36BAD /* RegistViewController.h */,
+				AE885A191D64490F00B36BAD /* RegistViewController.m */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 		AE9A35861D62BDF900CD4D55 = {
@@ -243,6 +280,7 @@
 		AE9A35DC1D62BF7200CD4D55 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				AE885A171D6448F700B36BAD /* login */,
 				AE9A35F51D62C1BF00CD4D55 /* imagesFile */,
 				AE9A35DD1D62BF7200CD4D55 /* base */,
 				AE9A35E21D62BF7200CD4D55 /* home */,
@@ -268,8 +306,9 @@
 		AE9A35E21D62BF7200CD4D55 /* home */ = {
 			isa = PBXGroup;
 			children = (
-				AE9A35E31D62BF7200CD4D55 /* HomeViewController.h */,
-				AE9A35E41D62BF7200CD4D55 /* HomeViewController.m */,
+				AE885A161D64471100B36BAD /* M */,
+				AE885A151D6446FE00B36BAD /* C */,
+				AE9A36401D63401400CD4D55 /* V */,
 				AE9A35E51D62BF7200CD4D55 /* tempAViewController.h */,
 				AE9A35E61D62BF7200CD4D55 /* tempAViewController.m */,
 				AE9A35E71D62BF7200CD4D55 /* tempBViewController.h */,
@@ -307,6 +346,8 @@
 		AE9A35FC1D630EEF00CD4D55 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				AE9A36441D63412200CD4D55 /* UIView+Extension.h */,
+				AE9A36451D63412200CD4D55 /* UIView+Extension.m */,
 				AE9A36391D631D7400CD4D55 /* Foundation+Log.m */,
 				AE9A361A1D630F0C00CD4D55 /* UIKit+AFNetworking */,
 				AE9A35FD1D630EF900CD4D55 /* AFNetworking */,
@@ -363,6 +404,17 @@
 				AE9A362C1D630F0C00CD4D55 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		AE9A36401D63401400CD4D55 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				AE885A101D643E0300B36BAD /* HomeCell.h */,
+				AE885A111D643E0300B36BAD /* HomeCell.m */,
+				AE9A36411D63402100CD4D55 /* HomeSearchView.h */,
+				AE9A36421D63402100CD4D55 /* HomeSearchView.m */,
+			);
+			name = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -547,11 +599,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9A36461D63412200CD4D55 /* UIView+Extension.m in Sources */,
 				AE9A36191D630EF900CD4D55 /* AFURLSessionManager.m in Sources */,
 				AE9A36161D630EF900CD4D55 /* AFURLConnectionOperation.m in Sources */,
 				AE9A36331D630F0C00CD4D55 /* UIRefreshControl+AFNetworking.m in Sources */,
 				AE9A36301D630F0C00CD4D55 /* UIButton+AFNetworking.m in Sources */,
 				AE9A36321D630F0C00CD4D55 /* UIProgressView+AFNetworking.m in Sources */,
+				AE885A131D643E0300B36BAD /* HomeCell.m in Sources */,
 				AE9A36111D630EF900CD4D55 /* AFHTTPRequestOperation.m in Sources */,
 				AE9A35EE1D62BF7200CD4D55 /* XNavigationController.m in Sources */,
 				AE9A362F1D630F0C00CD4D55 /* UIAlertView+AFNetworking.m in Sources */,
@@ -571,9 +625,11 @@
 				AE9A35941D62BDFA00CD4D55 /* main.m in Sources */,
 				AE9A36171D630EF900CD4D55 /* AFURLRequestSerialization.m in Sources */,
 				AE9A36141D630EF900CD4D55 /* AFNetworkReachabilityManager.m in Sources */,
+				AE9A36431D63402100CD4D55 /* HomeSearchView.m in Sources */,
 				AE9A36341D630F0C00CD4D55 /* UIWebView+AFNetworking.m in Sources */,
 				AE9A36181D630EF900CD4D55 /* AFURLResponseSerialization.m in Sources */,
 				AE9A35F11D62BF7200CD4D55 /* tempBViewController.m in Sources */,
+				AE885A1A1D64490F00B36BAD /* RegistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

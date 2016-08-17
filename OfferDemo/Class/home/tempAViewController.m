@@ -44,7 +44,8 @@
 
 -(void)nextPage{
     
-    [self.navigationController pushViewController:[[tempBViewController alloc] init] animated:YES];
+//    [self.navigationController pushViewController:[[tempBViewController alloc] init] animated:YES];
+    
 }
 
 
