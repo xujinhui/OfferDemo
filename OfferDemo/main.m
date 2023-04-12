@@ -14,7 +14,7 @@ int main(int argc, char * argv[]) {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
-//1  如们令_昨夜_雨疏_风骤
+//1  如梦令·昨_夜_雨_疏_风_骤
 //2  [作者] 李清照(1084年3月13日—1155年) [朝代] 宋
 //3  昨夜雨疏风骤，
 //   浓睡不消残酒。
