@@ -26,3 +26,4 @@ int main(int argc, char * argv[]) {
 
 
 // 黄鹤楼送孟浩然之广陵
+// [作者] 李白 [朝代] 唐
